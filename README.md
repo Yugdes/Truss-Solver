@@ -32,7 +32,17 @@ Analyze a statically determinate fixed truss system under user-defined loads. De
 ## 🛠️ Methodology
 
 1. **Truss Definition**: Nodes and members are pre-defined for a specific geometry to ensure accuracy.
+
+<p align="left">
+  <img src="truss_given.png" width="500"/>
+</p>
+
 2. **User Input**: Users enter loads at selected nodes in a simple format.
+
+<p align="left">
+  <img src="input.png" width="500"/>
+</p>
+
 3. **Equilibrium Analysis**:
    - Support reactions computed using ΣFₓ=0, ΣFᵧ=0, ΣM=0
    - Internal forces determined using Method of Joints
@@ -53,6 +63,9 @@ Analyze a statically determinate fixed truss system under user-defined loads. De
 ## 📈 Results Snapshot
 
 Example member force results (kN):
+<p align="left">
+  <img src="solution.png" width="500"/>
+</p>
 
 | Member | Force | Type |
 |--------|-------|------|
