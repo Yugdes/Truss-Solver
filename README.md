@@ -1,10 +1,10 @@
-# 🔧 Truss Analysis Tool — Group 05 (ES221 Project)
+# Truss Analysis Tool — Group 05 (ES221 Project)
 
-## 📚 Overview
+## Overview
 
 This project presents a **computational tool for analyzing 2D truss systems**, developed as part of the **ES221: Mechanics of Solids** course at IITGN. The solver, built using **Wolfram Mathematica**, calculates internal member forces and visualizes the results using color-coded truss diagrams.
 
-## 👨‍🔬 Team Members
+## Team Members
 
 - Anuj Manoj Joshi (23110033)  
 - Chaudhari Sarvesh Pravin (23110076)  
@@ -12,7 +12,7 @@ This project presents a **computational tool for analyzing 2D truss systems**, d
 - Tanushka Anand Sonde (23110332)  
 - Yug Mitulkumar Desai (23110370)
 
-## 🏗️ Problem Statement
+## Problem Statement
 
 Analyze a statically determinate fixed truss system under user-defined loads. Determine:
 
@@ -20,7 +20,7 @@ Analyze a statically determinate fixed truss system under user-defined loads. De
 - Internal axial forces (Tension/Compression)  
 - Visual representation of the truss force distribution
 
-## 🎯 Objectives
+## Objectives
 
 - Implement truss analysis using:
   - Static Equilibrium
@@ -29,7 +29,7 @@ Analyze a statically determinate fixed truss system under user-defined loads. De
 - Automate the classification of forces (tension/compression)
 - Generate a graphical output with clear labeling and force magnitudes
 
-## 🛠️ Methodology
+## Methodology
 
 1. **Truss Definition**: Nodes and members are pre-defined for a specific geometry to ensure accuracy.
 
@@ -52,7 +52,7 @@ Analyze a statically determinate fixed truss system under user-defined loads. De
    - Black: Near-zero force
 5. **Visualization**: Final output includes an annotated truss diagram with force values and directions.
 
-## 💻 Files Included
+## Files Included
 
 | File | Description |
 |------|-------------|
@@ -60,7 +60,7 @@ Analyze a statically determinate fixed truss system under user-defined loads. De
 | `Group_05_ES221_Project_Report.pdf` | Full technical report detailing the methodology, assumptions, results, and discussion |
 | `MOS_GROUP-05.pdf` | Presentation summary of the project with key visuals and results |
 
-## 📈 Results Snapshot
+## Results Snapshot
 
 Example member force results (kN):
 <p align="left">
@@ -75,12 +75,12 @@ Example member force results (kN):
 
 Visualization includes support reactions, member labeling, and a color-coded diagram.
 
-## ✅ Outcomes
+## Outcomes
 
 - Verified results using both hand calculations and symbolic solutions.
 - Developed a user-interactive tool for educational and analytical purposes.
 - Gained hands-on experience in structural analysis and software implementation.
 
-## 📎 References
+## References
 
 - [Mathalino – Truss by Method of Joints](https://mathalino.com/reviewer/engineering-mechanics/problem-414-truss-method-joints)
